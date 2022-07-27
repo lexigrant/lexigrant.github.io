@@ -1,0 +1,51 @@
+.navigation {
+    border: 4px solid black;
+    display: flex;
+}
+ul {
+     list-style: none;
+}
+.empty-header-space {
+    flex: 1;
+    border: 4px solid green;
+}
+.nav-list {
+    display: flex;
+    border: 4px solid red;
+     flex: 3;
+}
+.button {
+    flex: 1;
+}
+.links {
+    display: flex;
+    border: 4px solid blue;
+    flex-direction: column;
+   
+    
+}
+.links-list {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid green;
+  
+    /* min-height: 100%;
+    height: 100%; */
+}
+.main {
+    display: flex;
+    height: 600px;;
+    /* min-height: 100%;
+    height: 100%; */
+}
+.main-content {
+    flex: 4;
+    /* min-height: 100%;
+    height: 100%; */
+    border: 4px solid black;
+}
+.image {
+    height: 220px;
+    width: 220px;
+    border: 4px solid pink;
+}
