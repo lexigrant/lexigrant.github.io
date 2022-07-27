@@ -28,24 +28,32 @@ ul {
     display: flex;
     flex-direction: column;
     border: 4px solid green;
-  
-    /* min-height: 100%;
-    height: 100%; */
 }
 .main {
     display: flex;
     height: 600px;;
-    /* min-height: 100%;
-    height: 100%; */
 }
 .main-content {
     flex: 4;
-    /* min-height: 100%;
-    height: 100%; */
     border: 4px solid black;
 }
-.image {
-    height: 220px;
-    width: 220px;
+.everything {
+    display: flex;
     border: 4px solid pink;
+}
+.intro {
+    display: flex;
+    border: 4px solid palevioletred;
+    flex: 3;
+
+}
+.bottom-banner {
+    display: flex;
+    height: 20px;
+    border: 4px solid yellow;
+    bottom: 0;
+}
+.headshot {
+  flex: 1;
+  max-width: 20%;
 }
