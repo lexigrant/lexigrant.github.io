@@ -19,7 +19,7 @@ for(let i = 0; i < Object.keys(buttonContent).length; i++) {
     }) 
 }
 $(".content").hide()
-$(buttonContent["#projects"]).show()
+$(buttonContent["#home"]).show()
 
 // Lola carousel --- like example given in class
 
@@ -54,6 +54,21 @@ $(".carouselImages").children().eq(currentImage).css("display", "block")
 
 
 })
+
+$(".carouselImages").children().eq(0).show()
+
+// Dark mode toggle button
+
+$("#darkModeCheckBox").on("click",() => {
+    
+    if($("#darkModeCheckBox").prop("checked")) {
+        $("#body").addClass("darkMode")
+    } 
+    else {
+        $("#body").removeClass("darkMode")
+    }
+
+}) 
 
 
 
