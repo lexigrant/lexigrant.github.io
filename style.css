@@ -1,3 +1,4 @@
+/* General */
 .navigation {
     border: 1px solid black;
     display: flex;
@@ -44,6 +45,7 @@ ul {
 .main-content {
     flex: 4;
     border: 1px solid black;
+    padding: 8px ;
 }
 .everything {
     display: flex;
@@ -64,4 +66,32 @@ ul {
 .headshot {
   flex: 1;
   max-width: 15%;
+  border-radius: 5px;
+}
+/* carousel */
+.carousel {
+    display: flex;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    flex: 3;
+}
+.carouselText {
+    flex: 1;
+    border: 1px solid tan;
+    padding: 10px;
+}
+.carouselImages img{
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+}
+.carouselButton {
+    background-color: tomato;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+.carouselButton:hover {
+    cursor: pointer;
+    background-color: aliceblue;
 }
