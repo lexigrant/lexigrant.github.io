@@ -19,7 +19,7 @@ for(let i = 0; i < Object.keys(buttonContent).length; i++) {
     }) 
 }
 $(".content").hide()
-$(buttonContent["#home"]).show()
+$(buttonContent["#projects"]).show()
 
 // Lola carousel --- like example given in class
 

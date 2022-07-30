@@ -95,8 +95,8 @@ h2 {
     display: flex;
     border: 1px solid orangered;
     border-radius: 10px;
-    flex: 1;
-    justify-content: space-around;
+    /* flex: 1; */
+    justify-content: center;
 }
 .carouselText {
     flex: 1;
@@ -104,6 +104,8 @@ h2 {
     /* padding: 10px; */
 }
 .carouselImages img{
+    background: tomato;
+    padding: 5px;
     height: 290px;
     width: 218px;
     display: none;
@@ -112,7 +114,11 @@ h2 {
 .carouselButton {
     background-color: tomato;
     color: aliceblue;
-    padding: 5px;
+    padding: 8px;
+    height: 5%;
+    border-radius: 50%;
+    align-self: center;
+    margin: 10px;
 }
 .carouselButton:hover {
     cursor: pointer;
@@ -201,7 +207,7 @@ height: 100%;
         flex: 0;
     }
     .button {
-      padding: 0;
+      
     }
     .everything {
         height: 100px;
