@@ -3,6 +3,8 @@
 body {
     background-color: rgb(235, 227, 243);
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -46,7 +48,12 @@ ul {
     flex: 1;
     text-align: center;
 }
-
+.activeButton {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(78,34,134);
+    border-radius: 10px;
+}
 .button:hover {
     cursor: pointer;
     color: white;
@@ -59,6 +66,8 @@ ul {
     /* border: 1px solid blue; */
     flex-direction: column;
     flex: .5;
+    max-width: 15%;
+    min-width: 164px;
 }
 
 .links-list {
@@ -71,6 +80,10 @@ ul {
     align-items: center;
     margin: 0;
 }
+.fa-github .fa-linkedin  {
+    color: rgb(78,34,134);
+}
+
 
 .social {
     margin: 35px 0;
@@ -84,7 +97,7 @@ ul {
 
 .main-content {
     display: flex;
-    flex: 4;
+    flex: 3;
     /* border: 1px solid black; */
     padding: 8px;
     overflow: auto;
@@ -122,6 +135,9 @@ h2 {
     /* border: 1px solid blueviolet; */
     justify-content: center;
     padding-top: 25px;
+    background-color: rgb(78,34,134);
+    color: white;
+    
 }
 
 .headshot {
@@ -130,6 +146,8 @@ h2 {
     min-width: 164px;
     border-radius: 5px;
     height: auto;
+    margin-left: 10px;
+
 }
 
 /* carousel */
@@ -185,6 +203,7 @@ h2 {
     color: rgb(78,34,134);
     justify-content: center;
     cursor: pointer;
+    margin-left: 10px;
     
 }
 
@@ -194,7 +213,7 @@ h2 {
     color: white;
     border-radius: 10px;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     margin-left: 5px;
 }
 
@@ -226,6 +245,7 @@ h2 {
         width: 95%;
         text-align: center;
         margin: 2px;
+        border-radius: 10px;
     }
 
     .empty-header-space {
@@ -235,14 +255,20 @@ h2 {
     ul {
         padding-inline-start: 0;
     }
-
+    .links {
+        display: flex;
+        flex-direction: column;
+        flex: .5;
+        max-width: none;
+        min-width: none;
+    }
     .links-list {
         display: flex;
 
     }
 
     .icons {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: flex;
         flex-direction: row;
         width: 50%;
@@ -250,7 +276,7 @@ h2 {
     }
 
     .other {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: flex;
         flex-direction: row;
         width: 50%;
@@ -262,6 +288,7 @@ h2 {
     }
     .btn {
         margin: 35px 0px;
+
     }
 
 }
