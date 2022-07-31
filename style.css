@@ -1,7 +1,7 @@
 /* General */
 
 body {
-    background-color: white;
+    background-color: rgb(235, 227, 243);
     color: black;
 }
 
@@ -18,12 +18,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .darkMode {
-    background-color: black;
+    background-color: rgb(50, 47, 47);
     color: white;
 }
 
 .navigation {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
@@ -33,12 +33,12 @@ ul {
 
 .empty-header-space {
     flex: 1;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .nav-list {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex: 6;
 }
 
@@ -49,13 +49,14 @@ ul {
 
 .button:hover {
     cursor: pointer;
-    color: goldenrod;
-    background-color: purple;
+    color: white;
+    background-color: rgb(78,34,134);
+    border-radius: 10px;
 }
 
 .links {
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     flex-direction: column;
     flex: .5;
 }
@@ -63,7 +64,7 @@ ul {
 .links-list {
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0;
     /* padding-right: 25px; */
     flex: 1;
@@ -84,19 +85,19 @@ ul {
 .main-content {
     display: flex;
     flex: 4;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 8px;
     overflow: auto;
 }
 
 .everything {
     display: flex;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 .intro {
     display: flex;
-    border: 1px solid palevioletred;
+    /* border: 1px solid palevioletred; */
     flex: 3;
     font-size: 55px;
     justify-content: center;
@@ -118,7 +119,7 @@ h2 {
 .bottom-banner {
     display: flex;
     height: 50px;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     justify-content: center;
     padding-top: 25px;
 }
@@ -134,18 +135,18 @@ h2 {
 /* carousel */
 .carousel {
     display: flex;
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
     border-radius: 10px;
     justify-content: center;
 }
 
 .carouselText {
     flex: 1;
-    border: 1px solid tan;
+    /* border: 1px solid tan; */
 }
 
 .carouselImages img {
-    background: tomato;
+    background: rgb(78,34,134);
     padding: 5px;
     height: 290px;
     width: 218px;
@@ -154,7 +155,7 @@ h2 {
 }
 
 .carouselButton {
-    background-color: tomato;
+    background-color: rgb(78,34,134);
     color: aliceblue;
     padding: 8px;
     height: 5%;
@@ -165,7 +166,7 @@ h2 {
 
 .carouselButton:hover {
     cursor: pointer;
-    background-color: purple;
+    background-color: rgb(78,34,134);
 }
 
 /* Dark Mode Toggle Button */
@@ -181,7 +182,7 @@ h2 {
 
 .fa-moon {
     display: flex;
-    color: purple;
+    color: rgb(78,34,134);
     justify-content: center;
     cursor: pointer;
     
@@ -189,7 +190,7 @@ h2 {
 
 /* Download resume button */
 .btn {
-    background-color: lightskyblue;
+    background-color: rgb(78,34,134);
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -198,7 +199,7 @@ h2 {
 }
 
 .btn:hover {
-    background-color: blue;
+    background-color: rgb(187, 155, 227);
 }
 
 .resume {
