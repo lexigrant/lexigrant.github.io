@@ -5,6 +5,7 @@ body {
     color: black;
     margin: 0;
     padding: 0;
+    transition: .4s;
 }
 
 body::-webkit-scrollbar {
@@ -22,8 +23,26 @@ body::-webkit-scrollbar-thumb {
 .darkMode {
     background-color: rgb(50, 47, 47);
     color: white;
+    transition: .4s;
 }
-
+.homeContent {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.greetingImage {
+    /* float:right; */
+    flex: 1;
+    max-width: 100%;
+    /* height: auto; */
+    /* min-width: 40%; */
+    /* min-height: 250px; */
+}
+.greetingText {
+    display: flex;
+    flex: 1;
+    overflow-wrap: break-word;
+   
+}
 .navigation {
     /* border: 1px solid black; */
     display: flex;
