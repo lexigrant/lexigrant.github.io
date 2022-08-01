@@ -114,6 +114,9 @@ ul {
     flex: 3;
     font-size: 55px;
     justify-content: center;
+    border-bottom: 1px solid rgb(78,34,134);
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .wrap {
@@ -127,6 +130,9 @@ h1 {
 
 h2 {
     font-size: 25px;
+}
+.bulletPoint {
+    list-style: circle;
 }
 
 .bottom-banner {
@@ -210,11 +216,11 @@ h2 {
 /* Download resume button */
 .btn {
     background-color: rgb(78,34,134);
-    color: white;
     border-radius: 10px;
     cursor: pointer;
     padding: 10px;
     margin-left: 5px;
+    border-width: 0px;
 }
 
 .btn:hover {
@@ -237,6 +243,9 @@ h2 {
     .nav-list {
         flex-direction: column;
         align-items: center;
+    }
+    .intro {
+        border-bottom: none;
     }
 
     .button {
@@ -289,6 +298,9 @@ h2 {
     .btn {
         margin: 35px 0px;
 
+    }
+    .bulletPoint {
+        list-style: decimal;
     }
 
 }
