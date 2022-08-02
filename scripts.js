@@ -66,11 +66,13 @@ $(() => {
 
         if ($("#darkModeCheckBox").prop("checked")) {
             $("#body").addClass("darkMode")
+            $("#email").addClass("emailDarkMode")
             $("#moon").addClass("fa-solid").removeClass("fa-regular")
         }
         else {
             $("#body").removeClass("darkMode")
             $("#moon").addClass("fa-regular").removeClass("fa-solid")
+            $("#email").removeClass("emailDarkMode")
         }
 
     })

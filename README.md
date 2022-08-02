@@ -16,5 +16,5 @@ The approach I took when building this website was first to make an outline of w
 clone my repo and set JS live server 
 
 ## Unsolved Problems
-n/a
+- I wasn't able to get main content container consistent on mobile and thus have to deal with the scrolling 
 
