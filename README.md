@@ -12,9 +12,12 @@ The approach I took when building this website was first to make an outline of w
 
 ## Link to Site
 
+https://lexigrant.github.io/
+
 ## Installation Instructions
 clone my repo and set JS live server 
 
 ## Unsolved Problems
 - I wasn't able to get main content container consistent on mobile and thus have to deal with the scrolling 
+- Also my icons for GitHub and LinkedIn are showing up a blue color on mobile instead of the purple color I set in CSS
 
