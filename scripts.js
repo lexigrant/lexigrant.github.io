@@ -28,40 +28,43 @@ $(() => {
 
     let currentImage = 0
     let numOfImages = $(".carouselImages").children().length - 1
+    const carouselItems = document.getElementsByClassName("carouselImages")[0].children
 
+    const hideAll = () => {
+        console.log(carouselItems)
+        for(let i = 0; i < carouselItems.length; i++) {
+            carouselItems[i].children[0].style.display = "none"
+        }
+    }
+
+    const showCurrentImage = () => {
+        carouselItems[currentImage].children[0].style.display = "block"
+    }
 
     $(".forward").on("click", () => {
-
-        $(".carouselImages").children().eq(currentImage).css("display", "none")
-
+        hideAll()
         if (currentImage < numOfImages) {
             currentImage++
         } else {
             currentImage = 0
         }
-        $(".carouselImages").children().eq(currentImage).css("display", "block")
-
+        showCurrentImage()
     })
 
     $(".previous").on("click", () => {
-
-        $(".carouselImages").children().eq(currentImage).css("display", "none")
-
+        hideAll()
         if (currentImage > 0) {
             currentImage--
         } else {
             currentImage = numOfImages
         }
-
-        $(".carouselImages").children().eq(currentImage).css("display", "block")
-
-
+        showCurrentImage()
     })
 
-    $(".carouselImages").children().eq(0).show()
+    hideAll()
+    showCurrentImage()
 
     // Dark mode toggle button
-
     $("#darkModeCheckBox").on("click", () => {
 
         if ($("#darkModeCheckBox").prop("checked")) {

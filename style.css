@@ -161,10 +161,10 @@ h2 {
     flex: 1;
     max-width: 15%;
     min-width: 164px;
-    border-radius: 5px;
+    border-radius: 25px;
     height: auto;
     margin-left: 10px;
-
+    aspect-ratio: 1/1;
 }
 .email {
     color: rgb(78,34,134);
@@ -176,6 +176,9 @@ h2 {
 /* carousel */
 .projectsContent {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 .carousel {
     display: flex;
@@ -193,21 +196,29 @@ h2 {
 .carouselImages img {
     background: rgb(78,34,134);
     padding: 5px;
-    height: 290px;
-    width: 218px;
-    display: none;
+    /* height: 450px; */
+    /* height: 80%; */
+    /* width: 600px; */
+    width: 100%;
+    /* min-height: 250px; */
+    /* display: none; */
     border-radius: 10px;
+    max-height: 500px;
+    aspect-ratio: 16/9;
     
 }
 
 .carouselButton {
     background-color: rgb(78,34,134);
     color: aliceblue;
+    /* padding-top: 40%; */
     padding: 8px;
-    height: 5%;
+    /* height: 100%; */
     border-radius: 50%;
     align-self: center;
     margin: 10px;
+    margin-left: 20px;
+    /* display: block; */
 }
 
 .carouselButton:hover {
@@ -321,6 +332,10 @@ h2 {
     }
     .bulletPoint {
         list-style: decimal;
+    }
+    .headshot {
+        max-height: 164px;
+        align-self: center;
     }
 
 }
