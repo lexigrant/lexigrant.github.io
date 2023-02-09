@@ -36,7 +36,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navigation {
-    /* border: 1px solid black; */
     display: flex;
 }
 
@@ -46,12 +45,10 @@ ul {
 
 .empty-header-space {
     flex: 1;
-    /* border: 1px solid green; */
 }
 
 .nav-list {
     display: flex;
-    /* border: 1px solid red; */
     flex: 6;
 }
 
@@ -74,7 +71,6 @@ ul {
 
 .links {
     display: flex;
-    /* border: 1px solid blue; */
     flex-direction: column;
     flex: .5;
     max-width: 15%;
@@ -84,9 +80,7 @@ ul {
 .links-list {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid green; */
     padding: 0;
-    /* padding-right: 25px; */
     flex: 1;
     align-items: center;
     margin: 0;
@@ -109,19 +103,16 @@ ul {
 .main-content {
     display: flex;
     flex: 10;
-    /* border: 1px solid black; */
     padding: 8px;
     overflow: auto;
 }
 
 .everything {
     display: flex;
-    /* border: 1px solid pink; */
 }
 
 .intro {
     display: flex;
-    /* border: 1px solid palevioletred; */
     flex: 3;
     font-size: 55px;
     justify-content: center;
@@ -149,7 +140,6 @@ h2 {
 .bottom-banner {
     display: flex;
     height: 50px;
-    /* border: 1px solid blueviolet; */
     justify-content: center;
     padding-top: 25px;
     background-color: rgb(78,34,134);
@@ -174,15 +164,8 @@ h2 {
 }
 
 /* carousel */
-.projectsContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
 .carousel {
     display: flex;
-    /* border: 1px solid orangered; */
     border-radius: 10px;
     justify-content: center;
 }
@@ -190,40 +173,15 @@ h2 {
 .carouselText {
     flex: 1;
     text-align: center;
-    /* border: 1px solid tan; */
 }
 
 .carouselImages img {
     background: rgb(78,34,134);
     padding: 5px;
-    /* height: 450px; */
-    /* height: 80%; */
-    /* width: 600px; */
-    width: 100%;
-    /* min-height: 250px; */
-    /* display: none; */
     border-radius: 10px;
-    max-height: 500px;
+    max-height: 250px;
     aspect-ratio: 16/9;
     
-}
-
-.carouselButton {
-    background-color: rgb(78,34,134);
-    color: aliceblue;
-    /* padding-top: 40%; */
-    padding: 8px;
-    /* height: 100%; */
-    border-radius: 50%;
-    align-self: center;
-    margin: 10px;
-    margin-left: 20px;
-    /* display: block; */
-}
-
-.carouselButton:hover {
-    cursor: pointer;
-    background-color: rgb(78,34,134);
 }
 
 /* Dark Mode Toggle Button */
@@ -308,7 +266,6 @@ h2 {
     }
 
     .icons {
-        /* border: 1px solid black; */
         display: flex;
         flex-direction: row;
         width: 50%;
@@ -316,7 +273,6 @@ h2 {
     }
 
     .other {
-        /* border: 1px solid black; */
         display: flex;
         flex-direction: row;
         width: 50%;

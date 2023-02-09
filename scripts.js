@@ -26,43 +26,6 @@ $(() => {
 
     // Lola carousel --- like example given in class
 
-    let currentImage = 0
-    let numOfImages = $(".carouselImages").children().length - 1
-    const carouselItems = document.getElementsByClassName("carouselImages")[0].children
-
-    const hideAll = () => {
-        console.log(carouselItems)
-        for(let i = 0; i < carouselItems.length; i++) {
-            carouselItems[i].children[0].style.display = "none"
-        }
-    }
-
-    const showCurrentImage = () => {
-        carouselItems[currentImage].children[0].style.display = "block"
-    }
-
-    $(".forward").on("click", () => {
-        hideAll()
-        if (currentImage < numOfImages) {
-            currentImage++
-        } else {
-            currentImage = 0
-        }
-        showCurrentImage()
-    })
-
-    $(".previous").on("click", () => {
-        hideAll()
-        if (currentImage > 0) {
-            currentImage--
-        } else {
-            currentImage = numOfImages
-        }
-        showCurrentImage()
-    })
-
-    hideAll()
-    showCurrentImage()
 
     // Dark mode toggle button
     $("#darkModeCheckBox").on("click", () => {
