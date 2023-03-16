@@ -167,7 +167,7 @@ h2 {
 .carousel {
     display: flex;
     border-radius: 10px;
-    justify-content: center;
+    text-align: center;
 }
 
 .carouselText {
@@ -181,6 +181,7 @@ h2 {
     border-radius: 10px;
     max-height: 250px;
     aspect-ratio: 16/9;
+    
     
 }
 
